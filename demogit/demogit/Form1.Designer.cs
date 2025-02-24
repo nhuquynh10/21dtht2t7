@@ -48,28 +48,28 @@
             // 
             txtUserName.Location = new Point(194, 97);
             txtUserName.Name = "txtUserName";
-            txtUserName.Size = new Size(213, 27);
+            txtUserName.Size = new Size(422, 27);
             txtUserName.TabIndex = 1;
             // 
             // lbPassword
             // 
             lbPassword.AutoSize = true;
-            lbPassword.Location = new Point(93, 132);
+            lbPassword.Location = new Point(93, 149);
             lbPassword.Name = "lbPassword";
-            lbPassword.Size = new Size(83, 20);
+            lbPassword.Size = new Size(70, 20);
             lbPassword.TabIndex = 0;
-            lbPassword.Text = "lbPassword";
+            lbPassword.Text = "Password";
             // 
             // txtPassword
             // 
-            txtPassword.Location = new Point(193, 129);
+            txtPassword.Location = new Point(193, 146);
             txtPassword.Name = "txtPassword";
-            txtPassword.Size = new Size(213, 27);
+            txtPassword.Size = new Size(423, 27);
             txtPassword.TabIndex = 1;
             // 
             // button1
             // 
-            button1.Location = new Point(194, 192);
+            button1.Location = new Point(194, 214);
             button1.Name = "button1";
             button1.Size = new Size(94, 29);
             button1.TabIndex = 2;
