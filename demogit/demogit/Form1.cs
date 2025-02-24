@@ -9,9 +9,10 @@ namespace demogit
 
         private void button1_Click(object sender, EventArgs e)
         {
-if (txtUserName.Text == "Admin1" && txtPassword.Text == "Admin1") {
-    MessageBox.Show("Login OK!");
-}
+            if (txtUserName.Text == "Admin12345" && txtPassword.Text == "Admin123456") {
+                MessageBox.Show("Login sucess!asdfghjkl");
+            }
+
         }
     }
 }
