@@ -38,7 +38,7 @@
             // lbUserName
             // 
             lbUserName.AutoSize = true;
-            lbUserName.Location = new Point(98, 78);
+            lbUserName.Location = new Point(105, 97);
             lbUserName.Name = "lbUserName";
             lbUserName.Size = new Size(78, 20);
             lbUserName.TabIndex = 0;
@@ -46,7 +46,7 @@
             // 
             // txtUserName
             // 
-            txtUserName.Location = new Point(193, 70);
+            txtUserName.Location = new Point(194, 97);
             txtUserName.Name = "txtUserName";
             txtUserName.Size = new Size(213, 27);
             txtUserName.TabIndex = 1;
