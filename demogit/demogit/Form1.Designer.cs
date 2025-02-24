@@ -30,6 +30,9 @@
         {
             lbUserName = new Label();
             txtUserName = new TextBox();
+            lbPassword = new Label();
+            txtPassword = new TextBox();
+            button1 = new Button();
             SuspendLayout();
             // 
             // lbUserName
@@ -41,31 +44,17 @@
             lbUserName.TabIndex = 0;
             lbUserName.Text = "UserName";
             // 
-            // txtPassword
+            // txtUserName
             // 
             txtUserName.Location = new Point(193, 70);
             txtUserName.Name = "txtUserName";
             txtUserName.Size = new Size(213, 27);
             txtUserName.TabIndex = 1;
             // 
-            // Form1
-            // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(txtUserName);
-            Controls.Add(lbUserName);
-           
-
-
-            lbPassword = new Label();
-            txtPassword = new TextBox();
-            
-            // 
             // lbPassword
             // 
             lbPassword.AutoSize = true;
-            lbPassword.Location = new Point(105, 63);
+            lbPassword.Location = new Point(93, 132);
             lbPassword.Name = "lbPassword";
             lbPassword.Size = new Size(83, 20);
             lbPassword.TabIndex = 0;
@@ -73,14 +62,28 @@
             // 
             // txtPassword
             // 
-            txtPassword.Location = new Point(194, 64);
+            txtPassword.Location = new Point(193, 129);
             txtPassword.Name = "txtPassword";
-            txtPassword.Size = new Size(344, 27);
+            txtPassword.Size = new Size(213, 27);
             txtPassword.TabIndex = 1;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(194, 192);
+            button1.Name = "button1";
+            button1.Size = new Size(94, 29);
+            button1.TabIndex = 2;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(button1);
+            Controls.Add(txtUserName);
+            Controls.Add(lbUserName);
             Controls.Add(txtPassword);
             Controls.Add(lbPassword);
             Name = "Form1";
@@ -96,5 +99,6 @@
 
         private Label lbUserName;
         private TextBox txtUserName;
+        private Button button1;
     }
 }
