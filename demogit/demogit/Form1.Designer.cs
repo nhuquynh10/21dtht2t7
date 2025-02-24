@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             lbUserName = new Label();
-            txtPassword = new TextBox();
+            txtUserName = new TextBox();
             SuspendLayout();
             // 
             // lbUserName
@@ -43,18 +43,46 @@
             // 
             // txtPassword
             // 
-            txtPassword.Location = new Point(193, 70);
-            txtPassword.Name = "txtPassword";
-            txtPassword.Size = new Size(213, 27);
-            txtPassword.TabIndex = 1;
+            txtUserName.Location = new Point(193, 70);
+            txtUserName.Name = "txtUserName";
+            txtUserName.Size = new Size(213, 27);
+            txtUserName.TabIndex = 1;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(txtPassword);
+            Controls.Add(txtUserName);
             Controls.Add(lbUserName);
+           
+
+
+            lbPassword = new Label();
+            txtPassword = new TextBox();
+            
+            // 
+            // lbPassword
+            // 
+            lbPassword.AutoSize = true;
+            lbPassword.Location = new Point(105, 63);
+            lbPassword.Name = "lbPassword";
+            lbPassword.Size = new Size(83, 20);
+            lbPassword.TabIndex = 0;
+            lbPassword.Text = "lbPassword";
+            // 
+            // txtPassword
+            // 
+            txtPassword.Location = new Point(194, 64);
+            txtPassword.Name = "txtPassword";
+            txtPassword.Size = new Size(344, 27);
+            txtPassword.TabIndex = 1;
+            // 
+            // Form1
+            // 
+            
+            Controls.Add(txtPassword);
+            Controls.Add(lbPassword);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -63,7 +91,10 @@
 
         #endregion
 
-        private Label lbUserName;
+        private Label lbPassword;
         private TextBox txtPassword;
+
+        private Label lbUserName;
+        private TextBox txtUserName;
     }
 }
