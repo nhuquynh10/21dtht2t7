@@ -28,12 +28,42 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            lbPassword = new Label();
+            txtPassword = new TextBox();
+            SuspendLayout();
+            // 
+            // lbPassword
+            // 
+            lbPassword.AutoSize = true;
+            lbPassword.Location = new Point(105, 63);
+            lbPassword.Name = "lbPassword";
+            lbPassword.Size = new Size(83, 20);
+            lbPassword.TabIndex = 0;
+            lbPassword.Text = "lbPassword";
+            // 
+            // txtPassword
+            // 
+            txtPassword.Location = new Point(194, 64);
+            txtPassword.Name = "txtPassword";
+            txtPassword.Size = new Size(344, 27);
+            txtPassword.TabIndex = 1;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(txtPassword);
+            Controls.Add(lbPassword);
+            Name = "Form1";
+            Text = "Form1";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label lbPassword;
+        private TextBox txtPassword;
     }
 }
